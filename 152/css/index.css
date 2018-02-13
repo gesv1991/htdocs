@@ -11,6 +11,8 @@ body {
     background-repeat: repeat-x; 
 }
 
+
+
 #alles {
     padding: 30px;
 }
@@ -47,12 +49,22 @@ ul {
     width: 45%;
 }
 #bildMe{
+    background-image: url(../img/sven.jpg);
     border-radius: 50%;
     overflow: hidden;
     border: 5px solid #000;
     width: 8rem;
     height: 8rem;
     background-size: cover;
+}
+#bildMe:hover{
+    background-image: url('../img/replacePic.png');
+    transform: rotate(-90deg);
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #000;
+    width: 8rem;
+    height: 8rem;
 }
 
 a:hover {

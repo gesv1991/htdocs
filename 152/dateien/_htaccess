@@ -1,0 +1,6 @@
+
+AuthName "Password protect"
+AuthType Basic
+AuthUserFile C:\xampp_1\htdocs\M133/.htpasswd
+require valid-user
+

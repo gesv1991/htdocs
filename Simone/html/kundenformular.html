@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+
+<head>
+    <title>Einfaches Mailformular</title>
+</head>
+<body>
+<h1>Kundenformular</h1>
+<form name='mailformular' action='../php/mail_val.php' method='post'>
+<input type='hidden' name='recipient' value='test@test.ch'>
+<label>Name:</label><input type='text'  name='name' /><br/>
+<label>Vorname:</label><input type='text'  name='vorname' /><br/>
+<label>E-Mail:</label><input type='text'  name='mail' /><br/>
+<label>Betreff:</label><input type='text'  name='subject' /><br/>
+<label>Kommentar:</label><textarea name="comment"></textarea><br/>
+<input type='submit' name='submit' value='senden!' />
+</form>
+
+</body>
+</html>

@@ -1,0 +1,145 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?emo4us');
+  src:  url('fonts/icomoon.eot?emo4us#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?emo4us') format('truetype'),
+    url('fonts/icomoon.woff?emo4us') format('woff'),
+    url('fonts/icomoon.svg?emo4us#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-checkmark:before {
+  content: "\1f32f";
+}
+.icon-google-plus2:before {
+  content: "\ea8c";
+}
+.icon-facebook2:before {
+  content: "\ea91";
+}
+.icon-youtube:before {
+  content: "\ea9d";
+}
+.icon-github:before {
+  content: "\eab0";
+}
+.icon-stackoverflow:before {
+  content: "\ead0";
+}
+@font-face{ 
+  font-family: 'merriweatherbold';
+  src: url('fonts/merriweatherb.woff2') format('woff2'),
+       url('fonts/merriweatherb.woff') format('woff'),
+       url('fonts/merriweatherb.ttf') format('ttf');
+       font-weight: normal;
+       font-style: normal;
+}
+@font-face{ 
+  font-family: 'Lato';
+  src: url('fonts/lato.woff2') format('woff2'),
+       url('fonts/lato.woff') format('woff'),
+       url('fonts/lato.ttf') format('ttf');
+       font-weight: normal;
+       font-style: normal;
+}
+
+h1{
+  font-weight: bolder;
+  font-size: 42px;
+  line-height: 44px;
+  letter-spacing: -1px;
+  margin-top: 44px;
+  font-family: 'merriweatherbold', Arial;
+}
+h2{
+  font-weight: bolder;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: 'merriweatherbold';
+}
+img#logo{
+  display: block;
+  margin: 50px auto;
+  max-width: 500px;
+  transition: 5s ease-in-out 0s;
+}
+#textLogo{
+  display: block;
+
+}
+#logo:hover{
+    transform: rotate(-3180deg);
+    filter: grayscale(100%);
+}
+body{
+  padding: 0;
+  background-color: #7e9dca;
+}
+#content{
+  background: #ccc;
+  padding: 150px 0;
+}
+.text{ 
+  width: 1120px;
+
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'merriweatherbold', Arial, sans-serif; 
+}
+.title{
+  color: red;
+  font-weight: bolder;
+  font-size: 15px;
+  line-height: 22px;
+  font-family: 'Lato';
+}
+
+.body{
+column-count: 3;
+column-width: 30px;
+-webkit-column-count: 3;
+-webkit-column-width: 30px;
+}
+footer{
+  text-align: right;
+  font-size: 30px;
+  letter-spacing: 4px;
+  color: red;
+  margin-right: 210px;
+  margin-top: 20px;
+}
+
+
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

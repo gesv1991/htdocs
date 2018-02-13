@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="de">
+    <head>
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <title>Lieblingsfarbe</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <meta charset="UTF-8">
+        <meta name="author" content="Sven Gebert">
+        <meta name="description" content="Moduljournal_133">
+
+    </head>
+    <body>
+        <wrapper id="alles">
+    <form method="POST" name="simpleform" action="../formular_auswertung_post_tabelle.php">
+        <fieldset>
+        <legend>Farbpräferenzen: </legend>
+        <label>Vorname:</label> <input type="text" name="vname" autofocus placeholder= "Vorname"><br>
+            <label for="nname">Nachname: (*)</label><input type="text" name="nname" placeholder="Nachname" required>
+            <br>
+            <label>Lieblingsfarben: </label>
+            <input type="checkbox" name="farbe[]" value="Blau">Blau
+            <input type="checkbox" name="farbe[]" value="Rot">Rot
+            <input type="checkbox" name="farbe[]" value="Grün">Grün
+            <input type=checkbox name="farbe[]" value="Gelb">Gelb
+        
+        </fieldset>
+        <br>
+        <input type="submit" value="Senden" submit name="Senden">
+        <input type=reset value="Zurücksetzen" name="Zurücksetzen">
+        
+        </form>
+        </wrapper>
+    </body>
+</html>

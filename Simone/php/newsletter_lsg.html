@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Übung Kapitel 13</title>
+        <style>
+			body {
+				font-family: verdana, sans-serif;
+				margin-left: 50px;	
+			}
+			h1 {
+				font-family: verdana, sans-serif;
+				font-size: 24px;
+			}
+			label {
+				display: inline-block;
+				width: 200px;	
+			}
+		</style>
+    </head>
+    <body>
+        <h1>Newsletter abonnieren</h1>
+        <form action="newsletter_lsg.php" method="POST">
+            <p>Für Newsletter anmelden:</p>
+            <label>Ihr Name:</label> <input type="text" name="UserName" size="30"><br />
+            <label>Ihre E-Mail-Adresse:</label> <input type="text" name="UserMail" size="30"><br />
+            <p><input type="submit" value="Absenden" name="abschicken"></p>
+        </form>
+    </body>
+</html>

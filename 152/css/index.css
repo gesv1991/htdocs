@@ -59,7 +59,7 @@ ul {
 }
 #bildMe:hover{
     background-image: url('../img/replacePic.png');
-    transform: rotate(-90deg);
+  /*  transform: rotate(-180deg);*/
     border-radius: 50%;
     overflow: hidden;
     border: 5px solid #000;

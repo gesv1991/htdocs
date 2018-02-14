@@ -1,0 +1,30 @@
+Text für Tag 1
+Am ersten Tag haben wir hauptsächlich an unserer eigenen Profilseite gearbeitet.
+Diese trägt am ende der Woche ebenfalls zur Modulnote bei.
+
+Weitere Themen welche wir am 1. Tag kurz angeschaut haben:
+Was ist Multimedia.
+Web-Entwicklungsumgebung
+Werkzeuge zur Bearbeitung von Multimedia
+
+
+
+Tag 2
+Am Dienstag wurde erneut einige Zeit an der eigenen Profilseite gearbeitet.
+Ebenfalls wurde ein Video in eine Seite eingebunden. Wichtig war dabei jedoch das die Webseite
+responsive dargestellt wurde. Die Webseite muss somit auf dem PC sowie auf dem Smartphone
+und dem Tablet richtig dargestellt werden. Auf einer weiteren Webseite haben wir mittels :hover
+Ereigniss ein Logo in Bewegung gebracht.	
+
+Weitere Themen welche wir am 2. Tag angeschaut haben:
+Uebung Repetition Responsive Website
+Multimedia-Inhalte in Webauftritt integrieren
+
+
+Tag 3
+Am Mittwoch haben wir mit unserer Webseite für das Gruppenprojekt angefangen.
+Bereits nach kurzer Zeit stand der Styleguide sowie danach das Grundgerüst fest.
+Da wir bis jetzt das aufnehmen des Videos herausgezögert haben, legten wir dies ebenfalls noch als Ziel für den
+heutigen Tag fest. Dies haben wir am Ende des Tages auch so erreicht.
+Ebenfalls am Mittwoch erstellten wir für unsere Seite verschiedene Favicons. Dies sind Icons welche
+an verschiedenen Bereichen wie z.B. Smartphone icon oder auch Webseite Icon gebraucht werden.

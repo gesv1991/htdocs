@@ -1,8 +1,8 @@
         <!doctype html>
-
         <html lang="de">
         <head>
             <link rel="stylesheet" href="css/index.css">
+            <link href="css/lightbox.css" rel="stylesheet">
             <title>Modul 152</title>
             <meta name="viewport" content="width=device-width, initial-scale=1"> 
             <meta charset="UTF-8">
@@ -32,7 +32,6 @@
                 </wrapper>
             </header>
             <div id="textContainer">
-
                 <h3>Tell me </h3>
                 <div id="bildMe"></div>
                 <p class="Text">Aenean non massa sapien. In hac habitasse platea dictumst.
@@ -44,12 +43,14 @@
                     consectetur in, sollicitudin vitae justo. Cras amet aliquet
                     Aliquam ligula turpis, feugiat id fermentum malesuada,
                     rutrum eget turpis. Mauris sodales sed pharetra nisi nec
-                    consectetur. Cras elit magna, hendrerit nec consectetur
+                    consectetur. Cras lit magna, hendrerit nec consectetur
                 in sollicitudin vitae. </p>
-
+<div id="lightboxFotos">
+                        <a href="img/Sven.jpg" data-lightbox="image-1" data-title="Myself"><img src="img/thumbnails/svenThumbnail.jpg"></a>
+                        <a href="img/replacePic.png" data-lightbox="image-1" data-title="Myself2"><img src="img/thumbnails/replacePicThumbnail.jpg"></a>
+</div>
             </div>
             <footer>
-
                 <br/>
                 <div align="center" class="socialbtns">
                     <ul>
@@ -69,6 +70,9 @@
             </footer>
 
         </div>
+        <script src="js/lightbox-plus-jquery.js"></script>
+
     </body>
+
     </html>
 

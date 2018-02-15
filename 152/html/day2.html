@@ -3,6 +3,8 @@
         <html lang="de">
         <head>
             <link rel="stylesheet" href="../css/index.css">
+            <link href="../css/lightbox.css" rel="stylesheet">
+            <title>Modul 152</title>
             <title>Modul 152</title>
             <meta name="viewport" content="width=device-width, initial-scale=1"> 
             <meta charset="UTF-8">
@@ -36,29 +38,40 @@
                 <div id="bildMe"></div>
                 <p class="Text">Am Dienstag wurde erneut einige Zeit an der eigenen Profilseite gearbeitet.
                     Ebenfalls wurde ein Video in eine Seite eingebunden. Wichtig war dabei jedoch das die Webseite responsive dargestellt wurde. Die Webseite muss somit auf dem PC sowie auf dem Smartphone und dem Tablet richtig dargestellt werden. Auf einer weiteren Webseite haben wir mittels ":hover" ein Logo in Bewegung gebracht.
-                    <ul class="TextAufzaehlung">
-                        <li>Uebung Repetition Responsive Website</li>
-                        <li>Multimedia-Inhalte in Webauftritt integrieren</li>
-                    </ul>
-                </p>
-            </div>
-            <footer>
-                <br/>
-                <div align="center" class="socialbtns">
-                    <ul>
-                        <li><a href="https://www.facebook.com" class="fa fa-lg fa-facebook"></a></li>
-                        <li><a href="https://twitter.com/" class="fa fa-lg fa-twitter"></a></li>
-                        <li><a href="https://plus.google.com" class="fa fa-lg fa-google-plus"></a></li>
-                        <li><a href="https://github.com/" class="fa fa-lg fa-github"></a></li>
-                        <br id="abstand"/>
+                </br>Weitere Themen welche wir am 2. Tag kurz angeschaut haben:
+                <ul class="TextAufzaehlung">
+                    <li>Uebung Repetition Responsive Website</li>
+                    <li>Multimedia-Inhalte in Webauftritt integrieren</li>
+                </ul>
+            </p>
+            <div id="lightboxFotos">
+                
+                <a href="../img/wildlife_big.jpg" data-lightbox="tag2" data-title="Wildlife Page auf normalem Bildschirm"><img src="../img/thumbnails/wildlife_bigThumbnail.jpg"></a>
 
-                        <li><a href="https://www.pinterest.ch/" class="fa fa-lg fa-pinterest"></a></li>
-                        <li><a href="https://www.linkedin.com/" class="fa fa-lg fa-linkedin"></a></li>
-                        <li><a href="https://www.instagram.com/" class="fa fa-lg fa-instagram"></a></li>
-                        <li><a href="https://www.youtube.com/" class="fa fa-lg fa-youtube"></a></li>
-                    </ul>
-                </div>
-            </footer>
+                <a href="../img/wildlife_smartphone.jpg" data-lightbox="tag2" data-title="Wildlife Page auf Smartphone"><img src="../img/thumbnails/wildlife_smartphoneThumbnail.jpg"></a>
+                <a href="../img/gimp_batch.jpg" data-lightbox="tag2" data-title="Gimp Batch-Plugin um mehrere Bilder auf einmal zu verändern"><img src="../img/thumbnails/gimp_batchThumbnail.jpg"></a>
+                <a href="../img/button_media.jpg" data-lightbox="tag2" data-title="Button verändert mittels JS die TextFarbe + unten Rechts die Social Media Buttons"><img src="../img/thumbnails/button_mediaThumbnail.jpg"></a>
+                <a href="../img/topomedics.jpg" data-lightbox="tag2" data-title="Drehendes Logo mittels :hover Effekt"><img src="../img/thumbnails/topomedicsThumbnail.jpg"></a>
+            </div>
         </div>
-    </body>
-    </html>
+        <footer>
+            <br/>
+            <div align="center" class="socialbtns">
+                <ul>
+                    <li><a href="https://www.facebook.com" class="fa fa-lg fa-facebook"></a></li>
+                    <li><a href="https://twitter.com/" class="fa fa-lg fa-twitter"></a></li>
+                    <li><a href="https://plus.google.com" class="fa fa-lg fa-google-plus"></a></li>
+                    <li><a href="https://github.com/" class="fa fa-lg fa-github"></a></li>
+                    <br id="abstand"/>
+
+                    <li><a href="https://www.pinterest.ch/" class="fa fa-lg fa-pinterest"></a></li>
+                    <li><a href="https://www.linkedin.com/" class="fa fa-lg fa-linkedin"></a></li>
+                    <li><a href="https://www.instagram.com/" class="fa fa-lg fa-instagram"></a></li>
+                    <li><a href="https://www.youtube.com/" class="fa fa-lg fa-youtube"></a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <script src="../js/lightbox-plus-jquery.js"></script>
+</body>
+</html>

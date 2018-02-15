@@ -28,6 +28,7 @@
     .nav {
         color: black; 
         float: left;
+        font-family: 'merriweatherbold';
     }
 
     #main {
@@ -83,10 +84,11 @@
     }
     h3{
         font-family: "merriweatherbold";
+        color: white;
     }
     
     #Text{
-        font-family: "merriweatherbold";
+        font-family: "merriweatherb";
         color: white;
     }
 

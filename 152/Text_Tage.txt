@@ -39,3 +39,9 @@ Am Abend habe ich ebenfalls noch einige Minuten für die eigene Projektseite ein
 Tag 5
 Am Freitag arbeitete ich am Morgen noch zwei Stunden an der Gruppenprojekt Seite. Danach präsentierten alle Gruppen ihre Projekte.
 Am Nachmittag hatten wir die Modulprüfung.
+
+
+About me
+Mein Name ist Sven Gebert und ich erreichte im Januar mein 27. Lebensjahr. Zurzeit absolviere ich eine Zusatzlehre als Informatiker. Vor ca 10 Jahren habe ich meine erste Lehre
+als Kaufmann erfolgreich beendet. Nach einigen Jahren im Militär habe ich mich dazu entschlossen eine zweite Lehre zu starten.
+Diese werde ich im Sommer dieses Jahres abschliessen. Mein derzeitiges Praktikum absolviere ich in Windisch(AG) bei <a href="https://coresystems.ch">CoreSystems AG</a>.

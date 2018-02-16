@@ -58,7 +58,7 @@ h1 {
     padding: 0;
     overflow: hidden;
     background-color: rgba(0, 0, 0,0.9);
-    width: 40%;
+    width: 43%;
 }
 #bildMe{
     background-image: url(../img/sven.jpg);
@@ -91,9 +91,9 @@ h3{
 }
 
 .Text{
-    padding-left: 5px;
     font-family: "merriweatherb";
     color: white;
+    padding-left: 5px;
     padding-bottom: 10px;
     font-size: 18px;
 
